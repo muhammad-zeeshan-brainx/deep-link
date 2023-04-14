@@ -3,7 +3,7 @@
     "relation": ["delegate_permission/common.handle_all_urls"],
     "target": {
       "namespace": "android_app",
-      "package_name": "io.medesto.mobile",
+      "package_name": "com.brainx.drivenday",
       "sha256_cert_fingerprints": [
         "73:70:E9:AF:35:9B:33:DD:3A:E6:DC:89:48:DD:F5:88:CF:4A:A3:B2:32:69:61:4D:9A:4D:FE:D0:6D:32:F1:39"
       ]
