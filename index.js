@@ -4,7 +4,7 @@ const fs = require('fs');
 const path = require('path');
 const port = 3000;
 
-app.get('/', (req, res) => {
+app.get('/.well-known/assetlinks.json', (req, res) => {
   const filePath = path.join(__dirname, 'assetLinks.json');
   fs.readFile(filePath, 'utf8', (err, jsonString) => {
     if (err) {
